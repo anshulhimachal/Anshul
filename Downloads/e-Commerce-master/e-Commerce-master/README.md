@@ -60,6 +60,5 @@ npx cypress open
 
    The application will be available at `http://localhost:4200`.
 
-## Author
 
-- [@golubovicluka](https://github.com/golubovicluka)
+
