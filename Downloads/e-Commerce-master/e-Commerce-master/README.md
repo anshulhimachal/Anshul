@@ -20,7 +20,7 @@ Welcome to **Shoply**, an advanced Angular-based ecommerce application designed 
 ## Tech Stack
 
 - **Client:** Angular, PrimeNG, PrimeFlex, Apollo Client
-- **Server:** Hasura GraphQL
+- **Server:** GraphQL
 - **Tests:** Cypress
 
 ## Running End-to-End Tests
@@ -60,4 +60,35 @@ npx cypress open
    The application will be available at `http://localhost:4200`.
 
 
+5. **GraphQL Server**
+   Install Apollo and GraphQL packages
+This adds support for GraphQL and Apollo Client in your Angular project.
+
+````npm install apollo-angular @apollo/client graphql
+Create a GraphQL module for Apollo configuration
+Set up a new file to connect Apollo Client to the EscuelaJS GraphQL API.
+
+Create a file: src/app/graphql.module.ts
+
+Use the API endpoint: https://api.escuelajs.co/graphql
+
+Import GraphQLModule in your AppModule
+This makes the GraphQL client available throughout the app.
+
+Also import HttpClientModule (required by Apollo)
+
+Create services to send GraphQL queries/mutations
+Use Apollo's watchQuery for fetching data and mutate for actions like user registration.
+
+Example services:
+
+ProductsService → to get products, categories, etc.
+
+Use those services in your components
+Inject the service in your component and call the appropriate method to interact with the API.
+
+ API Endpoint Used
+
+````https://api.escuelajs.co/graphql
+You can explore this API directly using a GraphQL playground or your browser.
 
