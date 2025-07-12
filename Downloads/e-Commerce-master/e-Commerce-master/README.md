@@ -1,4 +1,3 @@
-## [Demo](https://ecommerce-app-angular.netlify.app/)
 
 # Shoply
 
