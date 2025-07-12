@@ -5,17 +5,27 @@ Welcome to **Shoply**, an advanced Angular-based ecommerce application designed 
 
 ## Key Features
 
-- **Product Catalog**: Browse an extensive range of products, categorized for easy navigation.
-- **Product Details**: Access comprehensive information about each product, including images, descriptions, and prices.
-- **Sorting and Pagination**: Organize products by price, popularity, and other criteria, with convenient pagination controls.
-- **Suggested Products**: Discover related products tailored to your preferences.
-- **Advanced Filtering**: Narrow down your search by category, price range, and other attributes.
-- **Search Functionality**: Quickly find products using a robust search feature. 🔍
-- **Dynamic Views**: Switch between list and grid views to suit your browsing preferences.
-- **Price Range Slider**: Adjust your budget with a responsive price range slider.
-- **Shopping Cart & Checkout**: Manage your cart, review your order, and proceed to payment with ease. 🛒
-- **Local Storage Integration**: Save wishlist items and cart contents in local storage, ensuring that your selections persist even after refreshing the page.
-- **End-to-End Testing**: Ensure quality and reliability with comprehensive tests using Cypress.
+**Explore Products**: You can browse through a big collection of products, all neatly sorted into categories.
+
+**See Details**: Click on any product to see its pictures, price, and description.
+
+**Sort & Browse Easily**: Sort items by price or popularity, and move through pages easily.
+
+**Get Suggestions**: We’ll show you similar or recommended products you might like.
+
+**Smart Filters**: Want something within a budget or a specific category? Use filters to narrow it down.
+
+**Search Anything**: Just type in what you’re looking for — our search bar finds it fast! 🔍
+
+**Your View, Your Way**: Choose between list view or grid view, whichever you like more.
+
+**Set a Budget**: Use a slider to set your price range — no typing needed!
+
+**Easy Cart & Checkout**: Add items to your cart, check your order, and place it without any hassle. 🛒
+
+**Saved Automatically**: Your cart and wishlist are saved in your browser — even if you refresh or come back later.
+
+**Fully Tested**: The whole app is tested using Cypress, so everything works smoothly and reliably.
 
 ## Tech Stack
 
